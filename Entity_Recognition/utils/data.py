@@ -87,7 +87,7 @@ class Data:
         sys.stdout.flush()
 
     def build_alphabet(self, input_file):
-        in_lines = open(input_file, 'r').readlines()
+        in_lines = open(input_file, 'r', encoding='utf-8').readlines()
         for idx in range(len(in_lines)):
             line = in_lines[idx]
             if len(line) > 2:

@@ -264,7 +264,7 @@ if __name__ == '__main__':
     word_emb_file = "data/gigaword_chn.all.a2b.uni.ite50.vec"
     print(train_file)
     data = Data()
-    data.HP_gpu = True
+    data.HP_gpu = False
     data.norm_gaz_emb = False
     data.HP_fix_gaz_emb = True
     data.HP_bilstm = True
